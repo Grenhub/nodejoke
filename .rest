@@ -1,0 +1,14 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/api/joke
+Content-Type: application/json
+
+{
+    "yourJoke": "this actually works believe it or not"
+}
+
+###
+
+GET http://localhost:3000/api/joke
